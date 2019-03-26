@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Graphics\UI\UIManager.cpp">
+      <Filter>Graphics\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGuizmo\ImGuizmo.cpp">
+      <Filter>Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WorldEditor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Surfaces\Icon.cpp">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DragDropWatchdog.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\World\EnvProbeCapture.cpp">
+      <Filter>Graphics\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{6c15f5a1-3021-4300-a2e1-d0a98f53a77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\UI">
+      <UniqueIdentifier>{790aa2df-700c-4203-b04a-f331daeea8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{2987939a-bc79-4cc6-85d9-d086f51ddfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ea0f4467-2869-4f43-9fbc-b82393e311b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Surfaces">
+      <UniqueIdentifier>{d34546bb-7ffc-42da-b907-590c8d2f6baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{508dec6f-2ef3-4a15-9b1b-1d3fa237bec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\World">
+      <UniqueIdentifier>{79144b81-8eca-459f-abab-3a12f624d9b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\UI\Clock.h">
+      <Filter>Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\ImGuizmo\ImGuizmo.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UI\UIManager.h">
+      <Filter>Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WorldEditor.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UI\ColorPicker.h">
+      <Filter>Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Surfaces\Icon.h">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DragDropWatchdog.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UI\TransformationFeature.h">
+      <Filter>Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UI\LightingFeatures.h">
+      <Filter>Graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\World\EnvProbeCapture.h">
+      <Filter>Graphics\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Graphics\Surfaces\ed_icon_vs.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Surfaces\ed_icon_ps.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

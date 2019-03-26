@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Shared.cpp" />
+    <ClCompile Include="System\Window.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\RenderContext.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\RenderManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Io\SmallGeometryFileReader.cpp">
+      <Filter>Io</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Mesh.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Environment.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\InputManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Timer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Surfaces\Default.cpp">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Surfaces\Opaque.cpp">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Material.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Io\TextFileReader.cpp">
+      <Filter>Io</Filter>
+    </ClCompile>
+    <ClCompile Include="Io\DictionaryReader.cpp">
+      <Filter>Io</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\MurmurHash2_64.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\World\Skybox.cpp">
+      <Filter>Graphics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PostFx\Composition.cpp">
+      <Filter>Graphics\PostFx</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui.cpp">
+      <Filter>Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\examples\directx11_example\imgui_impl_dx11.cpp">
+      <Filter>Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui_draw.cpp">
+      <Filter>Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StateManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PostFx\Bloom.cpp">
+      <Filter>Graphics\PostFx</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\LightManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\World\ShadowMapping.cpp">
+      <Filter>Graphics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PostFx\GaussianBlur.cpp">
+      <Filter>Graphics\PostFx</Filter>
+    </ClCompile>
+    <ClCompile Include="Io\AreaFileReaderWriter.cpp">
+      <Filter>Io</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\World\Atmosphere.cpp">
+      <Filter>Graphics\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shared.h" />
+    <ClInclude Include="System\Window.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderContext.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Io\SmallGeometryFileReader.h">
+      <Filter>Io</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Mesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Environment.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\InputManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Timer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Surfaces\Default.h">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Surfaces\Opaque.h">
+      <Filter>Graphics\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Material.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Io\TextFileReader.h">
+      <Filter>Io</Filter>
+    </ClInclude>
+    <ClInclude Include="Io\DictionaryReader.h">
+      <Filter>Io</Filter>
+    </ClInclude>
+    <ClInclude Include="System\MurmurHash2_64.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\World\Skybox.h">
+      <Filter>Graphics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PostFx\Composition.h">
+      <Filter>Graphics\PostFx</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imconfig.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imgui.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imgui_internal.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\examples\directx11_example\imgui_impl_dx11.h">
+      <Filter>Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StateManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PostFx\Bloom.h">
+      <Filter>Graphics\PostFx</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\LightManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\World\ShadowMapping.h">
+      <Filter>Graphics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PostFx\GaussianBlur.h">
+      <Filter>Graphics\PostFx</Filter>
+    </ClInclude>
+    <ClInclude Include="Io\AreaFileReaderWriter.h">
+      <Filter>Io</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\World\Atmosphere.h">
+      <Filter>Graphics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\World\AtmosphereConstants.h">
+      <Filter>Graphics\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{a5e451a1-ecef-44a6-96fc-d3f0fbe9377c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e1f0d65e-b78b-463a-a19b-879a8aa37c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Io">
+      <UniqueIdentifier>{401ca84c-6548-4256-86f2-fc6cd5c67f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{02a9e4db-f524-4271-89b0-68eed35d7058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Surfaces">
+      <UniqueIdentifier>{7dd33882-31ef-4679-a611-e0e5f1a83865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\World">
+      <UniqueIdentifier>{f8aa0f73-ff18-4a72-96c8-a5f8c8519f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PostFx">
+      <UniqueIdentifier>{e1b9213f-cd87-4d2e-aee9-29a5ae635331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{9402f086-c200-4226-843c-d93ee2cdf690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Common">
+      <UniqueIdentifier>{bff7bb98-d481-4cae-b69a-fc4d78532bb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Graphics\Surfaces\default_ps.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Surfaces\default_vs.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Surfaces\opaque_ps.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Surfaces\opaque_vs.hlsl">
+      <Filter>Graphics\Surfaces</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\skybox_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\skybox_vs.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\PostFx\composition_ps.hlsl">
+      <Filter>Graphics\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\PostFx\postfx_vs.hlsl">
+      <Filter>Graphics\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\PostFx\gaussianblur_horizontal_ps.hlsl">
+      <Filter>Graphics\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\PostFx\gaussianblur_vertical_ps.hlsl">
+      <Filter>Graphics\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\shadow_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\shadow_vs.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\PostFx\autoexposure_ps.hlsl">
+      <Filter>Graphics\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\atmosphere_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\atmosphere_vs.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\copyinscatter_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\copyinscatterN_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\copyirradiance_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\inscatter1_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\inscatterN_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\inscatterS_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\irradiance_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\irradianceN_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\World\transmittance_ps.hlsl">
+      <Filter>Graphics\World</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Common\downsample_ps.hlsl">
+      <Filter>Graphics\Common</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Surfaces\common.hlsli">
+      <Filter>Graphics\Surfaces</Filter>
+    </None>
+    <None Include="Graphics\World\common_bruneton.hlsli">
+      <Filter>Graphics\World</Filter>
+    </None>
+  </ItemGroup>
+</Project>
